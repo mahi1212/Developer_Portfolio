@@ -6,16 +6,22 @@ h1{
     font-size: 50px;
 }
 
-h1 span{
+h2{
+    font-size: 40px;
+}
+
+h1 span,
+h3 span{
     color: orange;
 }
 
-section{
+.flexible{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 7rem 7rem;
 }
+
 .half-width{
     width: 50%;
     padding: 2%;
@@ -45,4 +51,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-item{
+    width: 50%;
+    height: 400px;
+    padding: 0 30px 10px;
+    margin: 0 2rem 3rem 0;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-border{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+#full-border{
+    border-left: 7px solid tomato;
+}
+
+footer{
+    text-align: center;
 }
