@@ -12,7 +12,9 @@ h1 span{
 
 section{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 7rem 7rem;
 }
 .half-width{
     width: 50%;
@@ -37,4 +39,10 @@ section{
     background-repeat: no-repeat;
     background-position: cover;
 
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
